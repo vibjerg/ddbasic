@@ -120,6 +120,7 @@ $info = array(
   ),
 
   // Color areas to fill (x, y, width, height).
+  // bør slettes
   /*'fill' => array(
     'base' => array(0, 0, 760, 568),
     'link' => array(107, 533, 41, 23),

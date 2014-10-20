@@ -1,0 +1,1 @@
+Bør alle design-filerne ikke slettes fra repositoriet

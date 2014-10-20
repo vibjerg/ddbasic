@@ -262,6 +262,7 @@ function ddbasic_preprocess_views_view_unformatted(&$vars) {
  * @TODO: Is there an render array for this, str replacement is not cheap.
  * @TODO: Why do we replace and insert span2 thumbnail classes? Aren't they
  *        bootstrap specific?
+ * REVIEW: Oprydning?
  */
 function ddbasic_preprocess_user_picture(&$variables) {
   // Inject the class we need into the A tag of user_picture.
@@ -517,7 +518,7 @@ function ddbasic_preprocess_field(&$vars, $hook) {
       // Ensure that department is not add label info.
       if ($field_name == 'field_ding_staff_department' || $field_name == 'og_group_ref') {
         foreach ($vars['items'] as $id => $item) {
-          // This as little hack to make the user interface look better.
+          // This is a little hack to make the user interface look better.
           $vars['items'][$id]['#options']['no_label'] = TRUE;
         }
       }
